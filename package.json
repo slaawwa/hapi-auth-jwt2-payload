@@ -1,0 +1,38 @@
+{
+  "name": "hapi-auth-jwt2-payload",
+  "version": "0.0.1",
+  "description": "Hapi.js Authentication Plugin/Scheme using JSON Web Tokens (JWT) with POST method (payload)",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover ./node_modules/tape/bin/tape ./test/*.test.js  | node_modules/tap-spec/bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slaawwa/hapi-auth-jwt2-payload.git"
+  },
+  "keywords": [
+    "Hapi.js",
+    "Authentication",
+    "Auth",
+    "JSON",
+    "Web",
+    "Tokens",
+    "JWT",
+    "POST",
+    "payload"
+  ],
+  "author": {
+    "name": "@slaawwa",
+    "email": "slaawwa@gmail.com",
+    "url": "https://github.com/slaawwa"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slaawwa/hapi-auth-jwt2-payload/issues"
+  },
+  "homepage": "https://github.com/slaawwa/hapi-auth-jwt2-payload#readme"
+}
